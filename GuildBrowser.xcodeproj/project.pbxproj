@@ -19,6 +19,7 @@
 		544E4AF81771593700E1B972 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 544E4AF61771593700E1B972 /* character.json */; };
 		544E4AF91771593700E1B972 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 544E4AF71771593700E1B972 /* guild.json */; };
 		544E4AFC1771595600E1B972 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E4AFB1771595600E1B972 /* CharacterTests.m */; };
+		54E6CF8A17728FEC00375E38 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 54E6CF8917728FEC00375E38 /* test.xml */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -102,6 +103,7 @@
 		544E4AF71771593700E1B972 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		544E4AFA1771595600E1B972 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		544E4AFB1771595600E1B972 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		54E6CF8917728FEC00375E38 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -249,9 +251,26 @@
 			path = result;
 			sourceTree = "<group>";
 		};
+		54E6CF8717728FEC00375E38 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				54E6CF8817728FEC00375E38 /* test-reports */,
+			);
+			path = target;
+			sourceTree = "<group>";
+		};
+		54E6CF8817728FEC00375E38 /* test-reports */ = {
+			isa = PBXGroup;
+			children = (
+				54E6CF8917728FEC00375E38 /* test.xml */,
+			);
+			path = "test-reports";
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				54E6CF8717728FEC00375E38 /* target */,
 				544E4AF51771593700E1B972 /* result */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
@@ -528,6 +547,7 @@
 				544E4AE41771572B00E1B972 /* InfoPlist.strings in Resources */,
 				544E4AF81771593700E1B972 /* character.json in Resources */,
 				544E4AF91771593700E1B972 /* guild.json in Resources */,
+				54E6CF8A17728FEC00375E38 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,6 +878,7 @@
 				544E4AEB1771572B00E1B972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
